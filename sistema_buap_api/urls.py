@@ -22,7 +22,7 @@ from sistema_buap_api.views import maestros
 from sistema_buap_api.views import auth
 
 urlpatterns = [
-     #Version
+    #Version
         path('bootstrap/version', bootstrap.VersionView.as_view()),
     #Create Admin
         path('admin/', users.AdminView.as_view()),
